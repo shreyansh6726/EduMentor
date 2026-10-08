@@ -1,0 +1,14 @@
+.git
+.gitignore
+.venv
+.venv-1
+client/node_modules
+client/dist
+server/node_modules
+server/.env
+ml/__pycache__
+ml/notebooks
+*.ipynb
+*.pyc
+*.pyo
+*.log
