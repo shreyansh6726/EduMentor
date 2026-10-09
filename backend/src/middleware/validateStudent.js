@@ -1,11 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 
-const schemaPath = path.resolve(
-  __dirname,
-  "..",
-  "..",
-  "..",
+const backendRoot = path.resolve(__dirname, "..", "..");
+const schemaPath = path.join(
+  backendRoot,
   "ml",
   "artifacts",
   "feature_schema.json"

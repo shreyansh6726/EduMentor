@@ -1,7 +1,7 @@
 const path = require("path");
 const { spawn } = require("child_process");
 
-const backendRoot = path.resolve(__dirname, "..", "..", "..");
+const backendRoot = path.resolve(__dirname, "..", "..");
 const scriptPath = path.join(backendRoot, "ml", "predict.py");
 const pythonExecutable =
   process.env.PYTHON_EXECUTABLE ||
