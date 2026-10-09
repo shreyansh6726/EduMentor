@@ -151,9 +151,24 @@ function App() {
                 <fieldset key={group.title}>
                   <legend>{group.title}</legend>
                   <div className="feature-grid">
-                    {group.fields.map(([name, label]) => (
-                      <label key={name}>{label}
-                        <input required type="number" step="any" value={form.predictionFeatures[name]} onChange={(e) => updateFeature(name, e.target.value)} placeholder="0" />
+                    {group.fields.map((field) => (
+                      <label key={field.name}>{field.label}
+                        {field.type === "select" ? (
+                          <select required value={form.predictionFeatures[field.name]} onChange={(e) => updateFeature(field.name, e.target.value)}>
+                            <option value="">Select an option</option>
+                            {field.options.map(([value, label]) => <option key={value} value={value}>{label}</option>)}
+                          </select>
+                        ) : (
+                          <input
+                            required
+                            type="number"
+                            min={field.min}
+                            step={field.step}
+                            value={form.predictionFeatures[field.name]}
+                            onChange={(e) => updateFeature(field.name, e.target.value)}
+                            placeholder="Enter a value"
+                          />
+                        )}
                       </label>
                     ))}
                   </div>

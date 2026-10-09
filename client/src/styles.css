@@ -3,7 +3,7 @@
 :root { font-family: "DM Sans", sans-serif; color: #182538; background: #f4f7f9; font-synthesis: none; }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; }
-button, input { font: inherit; }
+button, input, select { font: inherit; }
 button { cursor: pointer; }
 .app-shell { min-height: 100vh; }
 .topbar { height: 78px; padding: 0 clamp(20px, 5vw, 76px); display: flex; align-items: center; justify-content: space-between; background: #0c1728; color: white; }
@@ -32,8 +32,8 @@ h2 { font-size: 20px; margin-bottom: 0; letter-spacing: -.4px; }
 .count { border-radius: 50%; min-width: 27px; text-align: center; }
 .identity-grid, .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
 label { display: grid; gap: 7px; color: #56677a; font-size: 11px; font-weight: 600; }
-input { width: 100%; border: 1px solid #dce4e9; border-radius: 8px; padding: 11px 12px; color: #182538; outline: none; background: #fcfdfd; font-size: 13px; transition: .2s; }
-input:focus { border-color: #d28645; box-shadow: 0 0 0 3px #fff2e3; }
+input, select { width: 100%; border: 1px solid #dce4e9; border-radius: 8px; padding: 11px 12px; color: #182538; outline: none; background: #fcfdfd; font-size: 13px; transition: .2s; }
+input:focus, select:focus { border-color: #d28645; box-shadow: 0 0 0 3px #fff2e3; }
 fieldset { border: 0; border-top: 1px solid #edf0f2; padding: 24px 0 0; margin: 29px 0 0; }
 legend { color: #21334a; font-size: 13px; font-weight: 700; padding: 0 12px 0 0; margin-bottom: 18px; }
 .feature-grid { grid-template-columns: repeat(3, 1fr); }
