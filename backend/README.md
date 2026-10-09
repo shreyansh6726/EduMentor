@@ -1,11 +1,13 @@
-# EduMentor Express backend
+# EduMentor backend
 
-This is the root-level Node.js + Express API for EduMentor. It uses CommonJS,
-Mongoose, and the Logistic Regression + SHAP artifact in `ml\artifacts\`.
+This directory is the self-contained Node.js + Express API and ML deployment
+unit for EduMentor. It includes the Logistic Regression + SHAP artifacts in
+`ml\artifacts\`, so it can be uploaded to Render independently from the React
+frontend.
 
 ## Setup
 
-From `server\`:
+From `backend\`:
 
 ```powershell
 npm install
@@ -14,20 +16,22 @@ npm run dev
 ```
 
 Set `PYTHON_EXECUTABLE` in `.env` to the Python executable that has the ML
-dependencies installed. The default development environment created for this
-workspace is:
+dependencies installed. From the repository root, install them with:
 
 ```text
-..\ .venv-1\Scripts\python.exe
+.\.venv\Scripts\python.exe -m pip install -r backend\requirements.txt
 ```
 
-Remove the space after `..\` when entering the actual path.
+When running locally on Windows, the service also falls back to
+`..\.venv\Scripts\python.exe`. On Render, set `PYTHON_EXECUTABLE` to
+`/opt/venv/bin/python` when using the included Dockerfile.
 
 ## Docker
 
-Build the combined Express + Python ML image from the project root:
+Build the combined Express + Python ML image from this directory:
 
 ```powershell
+cd backend
 docker build -t edumentor-api .
 ```
 
@@ -64,3 +68,18 @@ API because the configured prediction point is after the first semester.
 Prediction records are stored separately from students. Risk thresholds are
 environment configuration only and are not model claims; they must be
 validated against deployment metrics before production use.
+
+## Render deployment
+
+Use `backend` as the Render service's **Root Directory**. The included
+`Dockerfile` installs both Node.js dependencies and Python ML dependencies, then
+starts the API. Configure these environment variables in Render:
+
+```text
+MONGODB_URI=<your MongoDB connection string>
+CLIENT_ORIGIN=<deployed frontend URL>
+PYTHON_EXECUTABLE=/opt/venv/bin/python
+```
+
+The health check path is `/api/health`. Render provides the `PORT` variable;
+the server uses it automatically.

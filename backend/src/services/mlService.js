@@ -1,16 +1,18 @@
 const path = require("path");
 const { spawn } = require("child_process");
 
-const projectRoot = path.resolve(__dirname, "..", "..", "..");
-const scriptPath = path.join(projectRoot, "ml", "predict.py");
+const backendRoot = path.resolve(__dirname, "..", "..", "..");
+const scriptPath = path.join(backendRoot, "ml", "predict.py");
 const pythonExecutable =
   process.env.PYTHON_EXECUTABLE ||
-  path.join(projectRoot, ".venv-1", "Scripts", "python.exe");
+  (process.platform === "win32"
+    ? path.join(backendRoot, "..", ".venv", "Scripts", "python.exe")
+    : "python3");
 
 function runPrediction(features) {
   return new Promise((resolve, reject) => {
     const child = spawn(pythonExecutable, [scriptPath], {
-      cwd: projectRoot,
+      cwd: backendRoot,
       stdio: ["pipe", "pipe", "pipe"]
     });
     let stdout = "";

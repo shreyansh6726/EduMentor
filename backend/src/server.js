@@ -14,7 +14,7 @@ app.use(cors({ origin: process.env.CLIENT_ORIGIN || "http://localhost:5173" }));
 app.use(express.json({ limit: "1mb" }));
 
 app.get("/api/health", (req, res) => {
-  res.json({ status: "ok", service: "edumentor-server" });
+  res.json({ status: "ok", service: "edumentor-backend" });
 });
 app.use("/api/students", studentRoutes);
 app.use("/api/predictions", predictionRoutes);

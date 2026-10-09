@@ -20,13 +20,13 @@ RUN apt-get update \
 COPY requirements.txt ./
 RUN /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
 
-COPY server/package.json server/package-lock.json ./server/
-RUN npm ci --omit=dev --prefix ./server
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
 
 COPY ml ./ml
-COPY server ./server
+COPY src ./src
 
-WORKDIR /app/server
+WORKDIR /app
 EXPOSE 5000
 
 CMD ["node", "src/server.js"]
