@@ -88,6 +88,8 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 .artifacts/
+!backend/ml/artifacts/
+!backend/ml/artifacts/**
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt

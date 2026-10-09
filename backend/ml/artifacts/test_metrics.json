@@ -1,0 +1,64 @@
+{
+  "prediction_point": "after_first_semester",
+  "model": "Logistic Regression",
+  "random_state": 42,
+  "test_metrics": {
+    "accuracy": 0.6994350282485876,
+    "weighted_precision": 0.73429748731531,
+    "weighted_recall": 0.6994350282485876,
+    "weighted_f1": 0.7120781211444523,
+    "dropout_precision": 0.782258064516129,
+    "dropout_recall": 0.6830985915492958,
+    "dropout_f1": 0.7293233082706767,
+    "classification_report": {
+      "Dropout": {
+        "precision": 0.782258064516129,
+        "recall": 0.6830985915492958,
+        "f1-score": 0.7293233082706767,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.38362068965517243,
+        "recall": 0.559748427672956,
+        "f1-score": 0.45524296675191817,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.8296296296296296,
+        "recall": 0.7601809954751131,
+        "f1-score": 0.7933884297520661,
+        "support": 442.0
+      },
+      "accuracy": 0.6994350282485876,
+      "macro avg": {
+        "precision": 0.6651694612669771,
+        "recall": 0.6676760048991216,
+        "f1-score": 0.6593182349248871,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.73429748731531,
+        "recall": 0.6994350282485876,
+        "f1-score": 0.7120781211444523,
+        "support": 885.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        194,
+        63,
+        27
+      ],
+      [
+        28,
+        89,
+        42
+      ],
+      [
+        26,
+        80,
+        336
+      ]
+    ]
+  }
+}

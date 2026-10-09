@@ -1,0 +1,957 @@
+{
+  "sample_size": 100,
+  "features": [
+    {
+      "feature": "numerical__Curricular units 1st sem (approved)",
+      "mean_abs_shap": 7.581342960823652e-15
+    },
+    {
+      "feature": "numerical__Unemployment rate",
+      "mean_abs_shap": 4.765077221691168e-15
+    },
+    {
+      "feature": "numerical__Admission grade",
+      "mean_abs_shap": 3.3808336627934774e-15
+    },
+    {
+      "feature": "numerical__Inflation rate",
+      "mean_abs_shap": 3.351119475953252e-15
+    },
+    {
+      "feature": "numerical__Age at enrollment",
+      "mean_abs_shap": 2.420200180310491e-15
+    },
+    {
+      "feature": "numerical__Curricular units 1st sem (grade)",
+      "mean_abs_shap": 1.6426617011067173e-15
+    },
+    {
+      "feature": "numerical__GDP",
+      "mean_abs_shap": 9.55345467087051e-16
+    },
+    {
+      "feature": "numerical__Curricular units 1st sem (credited)",
+      "mean_abs_shap": 8.36368011884284e-16
+    },
+    {
+      "feature": "numerical__Curricular units 1st sem (enrolled)",
+      "mean_abs_shap": 7.924216838262057e-16
+    },
+    {
+      "feature": "categorical__Gender_0",
+      "mean_abs_shap": 6.556329553338476e-16
+    },
+    {
+      "feature": "categorical__Daytime/evening attendance_1",
+      "mean_abs_shap": 5.931597805523358e-16
+    },
+    {
+      "feature": "categorical__Debtor_0",
+      "mean_abs_shap": 4.880355379081411e-16
+    },
+    {
+      "feature": "categorical__Mother's occupation_9",
+      "mean_abs_shap": 4.794197446441242e-16
+    },
+    {
+      "feature": "numerical__Application order",
+      "mean_abs_shap": 4.667562632694929e-16
+    },
+    {
+      "feature": "numerical__Previous qualification (grade)",
+      "mean_abs_shap": 4.634834183114834e-16
+    },
+    {
+      "feature": "categorical__Father's occupation_9",
+      "mean_abs_shap": 4.172356904419421e-16
+    },
+    {
+      "feature": "categorical__Mother's qualification_3",
+      "mean_abs_shap": 3.8240244304432735e-16
+    },
+    {
+      "feature": "categorical__Previous qualification_1",
+      "mean_abs_shap": 3.4416913763379854e-16
+    },
+    {
+      "feature": "categorical__Gender_1",
+      "mean_abs_shap": 3.3847924463259456e-16
+    },
+    {
+      "feature": "categorical__Father's qualification_38",
+      "mean_abs_shap": 2.927288041594997e-16
+    },
+    {
+      "feature": "categorical__Tuition fees up to date_0",
+      "mean_abs_shap": 2.7959116503476856e-16
+    },
+    {
+      "feature": "categorical__Course_9500",
+      "mean_abs_shap": 2.7926734998591916e-16
+    },
+    {
+      "feature": "categorical__Mother's qualification_37",
+      "mean_abs_shap": 2.2472764390120855e-16
+    },
+    {
+      "feature": "categorical__Mother's qualification_1",
+      "mean_abs_shap": 2.177887499973017e-16
+    },
+    {
+      "feature": "categorical__Father's qualification_1",
+      "mean_abs_shap": 2.0697564033037952e-16
+    },
+    {
+      "feature": "categorical__Marital Status_1",
+      "mean_abs_shap": 1.9501761316931253e-16
+    },
+    {
+      "feature": "categorical__Course_9991",
+      "mean_abs_shap": 1.817990202823695e-16
+    },
+    {
+      "feature": "categorical__Father's occupation_8",
+      "mean_abs_shap": 1.730935996387591e-16
+    },
+    {
+      "feature": "categorical__Course_9254",
+      "mean_abs_shap": 1.6260141381489272e-16
+    },
+    {
+      "feature": "categorical__Father's occupation_7",
+      "mean_abs_shap": 1.4727802311043096e-16
+    },
+    {
+      "feature": "categorical__Father's occupation_4",
+      "mean_abs_shap": 1.4661882818955963e-16
+    },
+    {
+      "feature": "categorical__Tuition fees up to date_1",
+      "mean_abs_shap": 1.3618735768735282e-16
+    },
+    {
+      "feature": "categorical__Mother's occupation_2",
+      "mean_abs_shap": 1.3511182913224712e-16
+    },
+    {
+      "feature": "categorical__Application mode_7",
+      "mean_abs_shap": 1.3008113105191417e-16
+    },
+    {
+      "feature": "categorical__Displaced_1",
+      "mean_abs_shap": 1.2834640757593734e-16
+    },
+    {
+      "feature": "categorical__Course_9147",
+      "mean_abs_shap": 1.2536268319725723e-16
+    },
+    {
+      "feature": "categorical__Nacionality_1",
+      "mean_abs_shap": 1.245039950766487e-16
+    },
+    {
+      "feature": "categorical__International_0",
+      "mean_abs_shap": 1.245039950766487e-16
+    },
+    {
+      "feature": "categorical__Application mode_1",
+      "mean_abs_shap": 1.1166776415586855e-16
+    },
+    {
+      "feature": "categorical__Mother's occupation_3",
+      "mean_abs_shap": 1.0408340855860844e-16
+    },
+    {
+      "feature": "categorical__Father's qualification_19",
+      "mean_abs_shap": 1.0220990720455342e-16
+    },
+    {
+      "feature": "categorical__Father's occupation_3",
+      "mean_abs_shap": 9.994898427419707e-17
+    },
+    {
+      "feature": "categorical__Application mode_39",
+      "mean_abs_shap": 9.575673587391983e-17
+    },
+    {
+      "feature": "categorical__Scholarship holder_0",
+      "mean_abs_shap": 9.251858538542968e-17
+    },
+    {
+      "feature": "numerical__Curricular units 1st sem (without evaluations)",
+      "mean_abs_shap": 9.028079210141951e-17
+    },
+    {
+      "feature": "categorical__Scholarship holder_1",
+      "mean_abs_shap": 8.511709855459534e-17
+    },
+    {
+      "feature": "categorical__Course_9070",
+      "mean_abs_shap": 8.42150423470874e-17
+    },
+    {
+      "feature": "categorical__Course_9130",
+      "mean_abs_shap": 7.676151381197371e-17
+    },
+    {
+      "feature": "categorical__Displaced_0",
+      "mean_abs_shap": 7.04991620636975e-17
+    },
+    {
+      "feature": "categorical__Daytime/evening attendance_0",
+      "mean_abs_shap": 6.456062536427012e-17
+    },
+    {
+      "feature": "categorical__Mother's qualification_19",
+      "mean_abs_shap": 6.161737786669626e-17
+    },
+    {
+      "feature": "categorical__Father's qualification_37",
+      "mean_abs_shap": 5.98132654516803e-17
+    },
+    {
+      "feature": "categorical__Application mode_15",
+      "mean_abs_shap": 5.880134342402717e-17
+    },
+    {
+      "feature": "categorical__Previous qualification_3",
+      "mean_abs_shap": 5.670232801809524e-17
+    },
+    {
+      "feature": "categorical__Previous qualification_39",
+      "mean_abs_shap": 5.547645676173829e-17
+    },
+    {
+      "feature": "categorical__Application mode_44",
+      "mean_abs_shap": 5.10702591327572e-17
+    },
+    {
+      "feature": "categorical__Marital Status_5",
+      "mean_abs_shap": 4.464021744846979e-17
+    },
+    {
+      "feature": "categorical__Father's occupation_10",
+      "mean_abs_shap": 4.311366078961025e-17
+    },
+    {
+      "feature": "numerical__Curricular units 1st sem (evaluations)",
+      "mean_abs_shap": 3.853399081303148e-17
+    },
+    {
+      "feature": "categorical__Nacionality_26",
+      "mean_abs_shap": 3.776493007201509e-17
+    },
+    {
+      "feature": "categorical__Marital Status_2",
+      "mean_abs_shap": 3.76030225475906e-17
+    },
+    {
+      "feature": "categorical__Father's occupation_5",
+      "mean_abs_shap": 3.7111517562730513e-17
+    },
+    {
+      "feature": "categorical__Father's occupation_193",
+      "mean_abs_shap": 3.6355467247783965e-17
+    },
+    {
+      "feature": "categorical__Course_9003",
+      "mean_abs_shap": 3.5527136788005065e-17
+    },
+    {
+      "feature": "categorical__Previous qualification_2",
+      "mean_abs_shap": 3.354087840801149e-17
+    },
+    {
+      "feature": "categorical__Course_8014",
+      "mean_abs_shap": 3.297131086673252e-17
+    },
+    {
+      "feature": "categorical__Previous qualification_19",
+      "mean_abs_shap": 3.0869404255007285e-17
+    },
+    {
+      "feature": "categorical__Application mode_17",
+      "mean_abs_shap": 3.050222111925885e-17
+    },
+    {
+      "feature": "categorical__Mother's occupation_0",
+      "mean_abs_shap": 2.8424889756776725e-17
+    },
+    {
+      "feature": "categorical__Mother's occupation_6",
+      "mean_abs_shap": 2.696049402247284e-17
+    },
+    {
+      "feature": "categorical__Mother's qualification_9",
+      "mean_abs_shap": 2.6447304994163075e-17
+    },
+    {
+      "feature": "categorical__Mother's qualification_4",
+      "mean_abs_shap": 2.4679332651563394e-17
+    },
+    {
+      "feature": "categorical__Father's occupation_2",
+      "mean_abs_shap": 2.4657829308475744e-17
+    },
+    {
+      "feature": "categorical__Course_9085",
+      "mean_abs_shap": 2.455211959665841e-17
+    },
+    {
+      "feature": "categorical__Mother's qualification_2",
+      "mean_abs_shap": 2.355754480376504e-17
+    },
+    {
+      "feature": "categorical__Mother's qualification_12",
+      "mean_abs_shap": 2.2593327671701208e-17
+    },
+    {
+      "feature": "categorical__Mother's qualification_38",
+      "mean_abs_shap": 2.189221026682729e-17
+    },
+    {
+      "feature": "categorical__Marital Status_4",
+      "mean_abs_shap": 2.064899177571056e-17
+    },
+    {
+      "feature": "categorical__Course_9119",
+      "mean_abs_shap": 2.0562255601911757e-17
+    },
+    {
+      "feature": "categorical__Father's occupation_6",
+      "mean_abs_shap": 1.8084492237058215e-17
+    },
+    {
+      "feature": "categorical__Mother's qualification_34",
+      "mean_abs_shap": 1.651384468985088e-17
+    },
+    {
+      "feature": "categorical__Debtor_1",
+      "mean_abs_shap": 1.619075244245022e-17
+    },
+    {
+      "feature": "categorical__Course_9670",
+      "mean_abs_shap": 1.5236654530662955e-17
+    },
+    {
+      "feature": "categorical__Mother's occupation_7",
+      "mean_abs_shap": 1.462950131407105e-17
+    },
+    {
+      "feature": "categorical__Application mode_43",
+      "mean_abs_shap": 1.2553615554485487e-17
+    },
+    {
+      "feature": "categorical__Application mode_51",
+      "mean_abs_shap": 1.205632815803881e-17
+    },
+    {
+      "feature": "categorical__Course_9238",
+      "mean_abs_shap": 1.1160054362117452e-17
+    },
+    {
+      "feature": "categorical__Course_171",
+      "mean_abs_shap": 1.1148489538944268e-17
+    },
+    {
+      "feature": "categorical__Previous qualification_12",
+      "mean_abs_shap": 1.0804436049542198e-17
+    },
+    {
+      "feature": "categorical__Father's qualification_3",
+      "mean_abs_shap": 1.0431470502207193e-17
+    },
+    {
+      "feature": "categorical__Father's occupation_1",
+      "mean_abs_shap": 9.134041902466215e-18
+    },
+    {
+      "feature": "categorical__Course_9773",
+      "mean_abs_shap": 8.855763344861587e-18
+    },
+    {
+      "feature": "categorical__Mother's occupation_1",
+      "mean_abs_shap": 8.57676198580867e-18
+    },
+    {
+      "feature": "categorical__Nacionality_41",
+      "mean_abs_shap": 8.242104915234804e-18
+    },
+    {
+      "feature": "categorical__Mother's occupation_5",
+      "mean_abs_shap": 8.19078601240381e-18
+    },
+    {
+      "feature": "categorical__Father's occupation_144",
+      "mean_abs_shap": 8.135853102331226e-18
+    },
+    {
+      "feature": "categorical__Mother's occupation_192",
+      "mean_abs_shap": 7.135495897851266e-18
+    },
+    {
+      "feature": "categorical__Mother's occupation_193",
+      "mean_abs_shap": 7.0574333414323e-18
+    },
+    {
+      "feature": "categorical__Application mode_42",
+      "mean_abs_shap": 4.838432895078643e-18
+    },
+    {
+      "feature": "categorical__Application mode_16",
+      "mean_abs_shap": 4.721339060450206e-18
+    },
+    {
+      "feature": "categorical__Father's occupation_181",
+      "mean_abs_shap": 4.182129180000752e-18
+    },
+    {
+      "feature": "categorical__Course_9853",
+      "mean_abs_shap": 3.3537987202218213e-18
+    },
+    {
+      "feature": "categorical__Educational special needs_1",
+      "mean_abs_shap": 2.5832923763087954e-18
+    },
+    {
+      "feature": "categorical__Mother's occupation_4",
+      "mean_abs_shap": 2.5326962749261375e-18
+    },
+    {
+      "feature": "categorical__Father's qualification_4",
+      "mean_abs_shap": 2.419216447539321e-18
+    },
+    {
+      "feature": "categorical__Mother's occupation_90",
+      "mean_abs_shap": 1.885066177228135e-18
+    },
+    {
+      "feature": "categorical__Application mode_18",
+      "mean_abs_shap": 1.8735013540549537e-18
+    },
+    {
+      "feature": "categorical__International_1",
+      "mean_abs_shap": 1.7227972520794676e-18
+    },
+    {
+      "feature": "categorical__Educational special needs_0",
+      "mean_abs_shap": 1.635067226289176e-18
+    },
+    {
+      "feature": "categorical__Course_9556",
+      "mean_abs_shap": 7.806255641895636e-19
+    },
+    {
+      "feature": "categorical__Previous qualification_40",
+      "mean_abs_shap": 1.6407592876947287e-19
+    },
+    {
+      "feature": "categorical__Mother's occupation_152",
+      "mean_abs_shap": 6.414862853872564e-20
+    },
+    {
+      "feature": "categorical__Marital Status_3",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Marital Status_6",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Application mode_2",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Application mode_5",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Application mode_10",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Application mode_26",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Application mode_27",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Application mode_53",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Application mode_57",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Course_33",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_4",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_5",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_6",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_9",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_10",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_14",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_15",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_38",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_42",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Previous qualification_43",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_2",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_6",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_11",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_13",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_14",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_21",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_22",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_24",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_25",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_32",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_62",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_100",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_101",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_103",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_105",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Nacionality_108",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_5",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_6",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_10",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_11",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_14",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_18",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_22",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_26",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_29",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_30",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_35",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_36",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_39",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_40",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_41",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_42",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_43",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's qualification_44",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_2",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_5",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_6",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_9",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_10",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_11",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_12",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_14",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_18",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_20",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_22",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_25",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_26",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_27",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_29",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_30",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_31",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_34",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_35",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_36",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_39",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_40",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_41",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_42",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_43",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's qualification_44",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_8",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_10",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_99",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_122",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_123",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_131",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_132",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_134",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_141",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_143",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_144",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_151",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_153",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_171",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_173",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_175",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_191",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Mother's occupation_194",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_0",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_90",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_99",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_101",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_102",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_103",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_112",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_122",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_123",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_131",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_134",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_135",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_141",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_143",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_151",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_152",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_153",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_154",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_161",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_163",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_171",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_172",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_175",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_182",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_183",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_192",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_194",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "feature": "categorical__Father's occupation_195",
+      "mean_abs_shap": 0.0
+    }
+  ]
+}
