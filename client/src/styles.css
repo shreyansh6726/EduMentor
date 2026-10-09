@@ -8,7 +8,6 @@ button { cursor: pointer; }
 .app-shell { min-height: 100vh; }
 .topbar { height: 78px; padding: 0 clamp(20px, 5vw, 76px); display: flex; align-items: center; justify-content: space-between; background: #0c1728; color: white; }
 .brand, .selected-student { display: flex; align-items: center; gap: 12px; }
-.brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; background: #e7a85e; color: #0c1728; font-weight: 700; font-size: 20px; }
 .brand strong, .brand span { display: block; }
 .brand strong { font-size: 16px; letter-spacing: .2px; }
 .brand div span { color: #93a2b6; font-size: 11px; margin-top: 2px; }

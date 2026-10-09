@@ -110,7 +110,6 @@ function App() {
     <div className="app-shell">
       <header className="topbar">
         <div className="brand">
-          <span className="brand-mark">E</span>
           <div>
             <strong>EduMentor</strong>
             <span>Early-warning intelligence</span>
